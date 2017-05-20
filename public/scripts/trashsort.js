@@ -15,7 +15,9 @@ function clickThrough() {
     var next = (curr + 1) % (options.length);
 
     option_container.removeClass('active');
+    options.eq(next).hide();
     options.eq(next).addClass('active');
+    options.eq(next).delay(1000).fadeIn(400);
 
     var trash_items = $('#trash-container ul.items li');
     trash_items.eq(curr).removeClass('active');
