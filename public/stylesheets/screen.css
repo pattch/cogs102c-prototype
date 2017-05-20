@@ -5,9 +5,12 @@
 /* line 8, ../sass/screen.scss */
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 div#option-container ul.options li.active {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -28,7 +31,7 @@ div#option-container ul.options li.active {
   -ms-flex-align: start;
   align-items: flex-start;
 }
-/* line 38, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 div#option-container ul.options li.active .option {
   -webkit-order: 0;
   -ms-flex-order: 0;
@@ -41,7 +44,7 @@ div#option-container ul.options li.active .option {
   align-self: center;
   text-align: center;
 }
-/* line 53, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 div#option-container ul.options li .option .can {
   min-width: 150px;
   min-height: 250px;
@@ -52,33 +55,33 @@ div#option-container ul.options li .option .can {
   font-weight: 900;
   border-radius: 15px;
 }
-/* line 64, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 div#option-container ul.options li .option .landfill {
   background-color: #222;
   color: #fafafa;
 }
-/* line 69, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 div#option-container ul.options li .option .recycle {
   background-color: #3255A4;
   color: #fafafa;
 }
-/* line 74, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 div#option-container ul.options li .option .compost {
   background-color: #4d7f17;
   color: #fafafa;
 }
-/* line 79, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 div#option-container ul.options li .option span.select {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
-/* line 84, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 div#option-container ul.options li .option span.select:hover {
   filter: brightness(175%);
   -webkit-filter: brightness(175%);
 }
-/* line 95, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 div#trash-container {
   position: absolute;
   bottom: 0;
@@ -90,20 +93,20 @@ div#trash-container {
   padding: 20px;
   font-size: 30pt;
 }
-/* line 106, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 div#trash-container.correct {
   background-color: #79c879;
   color: #fff;
 }
-/* line 112, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 div ul {
   list-style-type: none;
 }
-/* line 115, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 div ul li {
   display: none;
 }
-/* line 118, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 div ul li.active {
   display: initial;
 }

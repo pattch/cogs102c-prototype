@@ -12,7 +12,7 @@
 	<div id="option-container">
   	<ul class="options">
 			{{#each trashcans}}
-			<li>
+			<li{{#unless @index}} class="active"{{/unless}}>
 				{{#each options}}
 				<div class="option">
 					<div class="can {{type}}">
@@ -33,7 +33,7 @@
 	<div id="trash-container">
   	<ul class="items">
 			{{#each trashitems}}
-			<li>
+			<li{{#unless @index}} class="active"{{/unless}}>
 				<div class="trash-img">
 					{{#if imgsrc}}<img src="{{imgsrc}}" alt="{{description}}" />
 					{{else}}{{description}}
