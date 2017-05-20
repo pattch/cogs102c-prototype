@@ -1,0 +1,1 @@
+Boilerplate Node App with Express, Handlebars preconfigured.

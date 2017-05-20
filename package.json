@@ -1,0 +1,19 @@
+{
+  "name": "cogs102c-prototype",
+  "version": "1.0.0",
+  "description": "Prototype for testing cognitive load during waste sorting tasks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cognitive",
+    "design",
+    "design",
+    "cognitive",
+    "load",
+    "testing"
+  ],
+  "author": "Samuel Sampson",
+  "license": "ISC"
+}

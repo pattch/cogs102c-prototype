@@ -1,0 +1,24 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/screen.scss */
+ul.nav {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 16, ../sass/screen.scss */
+ul.nav li {
+  display: inline-block;
+}
+
+/* line 21, ../sass/screen.scss */
+#account-links {
+  position: fixed;
+  bottom: 0;
+}
