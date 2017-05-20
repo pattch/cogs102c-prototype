@@ -11,8 +11,20 @@
 <body>
 	<div id="option-container">
   	<ul class="options">
+			<li class="intro active">
+				<div class="option">
+					<div class="can">
+						{{#each intromessages}}
+						<p>{{message}}</p>
+						{{/each}}
+					</div>
+					<span class="select compost">
+						CLICK TO BEGIN
+					</span>
+				</div>
+			</li>
 			{{#each trashcans}}
-			<li{{#unless @index}} class="active"{{/unless}}>
+			<li>
 				{{#each options}}
 				<div class="option">
 					<div class="can {{type}}">
@@ -27,13 +39,26 @@
 				{{/each}}
 			</li>
 			{{/each}}
+			<li class="finished">
+				<div class="option">
+					<div class="can">
+						{{#each finishmessages}}
+						<p>{{message}}</p>
+						{{/each}}
+					</div>
+					<span class="select compost">
+						CLICK TO START OVER
+					</span>
+				</div>
+			</li>
 		</ul>
 	</div>
 
 	<div id="trash-container">
   	<ul class="items">
+			<li class="intro active"></li>
 			{{#each trashitems}}
-			<li{{#unless @index}} class="active"{{/unless}}>
+			<li>
 				<div class="trash-img">
 					{{#if imgsrc}}<img src="{{imgsrc}}" alt="{{description}}" />
 					{{else}}{{description}}

@@ -1,4 +1,15 @@
 {
+  "intromessages": [
+    {
+      "message": "In this test, you will sort examples of trash on the bottom into what you feel is the appropriate container."
+    },
+    {
+      "message": "In order to sort each item, simply click the label of the trash can that will appear just below it."
+    },
+    {
+      "message": "It is important you try to sort the trash as quickly as possible, while being as accurate as you can be. After you've finished, we'll give you a score of how accurate you were so you can get a feel of how well you sort your trash on average."
+    }
+  ],
   "trashcans": [
     {
       "options": [
@@ -79,6 +90,14 @@
     {
       "imgsrc": "",
       "description": "Food Container"
+    }
+  ],
+  "finishmessages": [
+    {
+      "message": "Thank you for participating, your score was:"
+    },
+    {
+      "message": "score"
     }
   ]
 }

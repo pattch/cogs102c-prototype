@@ -13,6 +13,9 @@ function clickThrough() {
     var options = option_container.parent().children();
     var curr = option_container.index();
     var next = (curr + 1) % (options.length);
+    console.log(curr);
+    console.log(next);
+    console.log(options.length);
 
     option_container.removeClass('active');
     options.eq(next).hide();
