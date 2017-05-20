@@ -2,13 +2,49 @@
 
 <html>
 <head>
-	<title>Sam Sampson</title>	
+	<title>Sam Sampson</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/stylesheets/screen.css" rel="stylesheet">
 </head>
 
 <body>
+	<div id="option-container">
+  	<ul class="options">
+			{{#each trashcans}}
+			<li>
+				{{#each options}}
+				<div class="option">
+					<div class="can {{type}}">
+						{{#if imgsrc}}<img src="{{imgsrc}}" alt="{{description}}" />
+						{{else}}{{description}}
+						{{/if}}
+					</div>
+					<span class="select {{type}}">
+						{{buttontext}}
+					</span>
+				</div>
+				{{/each}}
+			</li>
+			{{/each}}
+		</ul>
+	</div>
+
+	<div id="trash-container">
+  	<ul class="items">
+			{{#each trashitems}}
+			<li>
+				<div class="trash-img">
+					{{#if imgsrc}}<img src="{{imgsrc}}" alt="{{description}}" />
+					{{else}}{{description}}
+					{{/if}}
+				</div>
+			</li>
+			{{/each}}
+		</ul>
+	</div>
+
 	<script src="/scripts/jquery-1.11.0.js"></script>
+	<script src="/scripts/trashsort.js"></script>
 </body>
 </html>

@@ -7,18 +7,103 @@
   box-sizing: border-box;
 }
 
-/* line 12, ../sass/screen.scss */
-ul.nav {
-  list-style-type: none;
-  padding-left: 0;
+/* line 18, ../sass/screen.scss */
+div#option-container ul.options li.active {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
-/* line 16, ../sass/screen.scss */
-ul.nav li {
-  display: inline-block;
+/* line 38, ../sass/screen.scss */
+div#option-container ul.options li.active .option {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
 }
-
-/* line 21, ../sass/screen.scss */
-#account-links {
-  position: fixed;
+/* line 53, ../sass/screen.scss */
+div#option-container ul.options li .option .can {
+  min-width: 150px;
+  min-height: 250px;
+  padding: 10px;
+  background-color: #eee;
+  margin: 30px;
+  text-align: center;
+  font-weight: 900;
+  border-radius: 15px;
+}
+/* line 64, ../sass/screen.scss */
+div#option-container ul.options li .option .landfill {
+  background-color: #222;
+  color: #fafafa;
+}
+/* line 69, ../sass/screen.scss */
+div#option-container ul.options li .option .recycle {
+  background-color: #3255A4;
+  color: #fafafa;
+}
+/* line 74, ../sass/screen.scss */
+div#option-container ul.options li .option .compost {
+  background-color: #4d7f17;
+  color: #fafafa;
+}
+/* line 79, ../sass/screen.scss */
+div#option-container ul.options li .option span.select {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 84, ../sass/screen.scss */
+div#option-container ul.options li .option span.select:hover {
+  filter: brightness(175%);
+  -webkit-filter: brightness(175%);
+}
+/* line 95, ../sass/screen.scss */
+div#trash-container {
+  position: absolute;
   bottom: 0;
+  min-height: 200px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #aaa;
+  padding: 20px;
+  font-size: 30pt;
+}
+/* line 106, ../sass/screen.scss */
+div#trash-container.correct {
+  background-color: #79c879;
+  color: #fff;
+}
+/* line 112, ../sass/screen.scss */
+div ul {
+  list-style-type: none;
+}
+/* line 115, ../sass/screen.scss */
+div ul li {
+  display: none;
+}
+/* line 118, ../sass/screen.scss */
+div ul li.active {
+  display: initial;
 }

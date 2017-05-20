@@ -7,11 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "cognitive",
+    "cognitive design",
     "design",
-    "design",
-    "cognitive",
-    "load",
+    "cognitive load",
     "testing"
   ],
   "author": "Samuel Sampson",

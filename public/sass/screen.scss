@@ -8,3 +8,116 @@
 * {
 	box-sizing: border-box;
 }
+
+
+div {
+
+  &#option-container {
+    ul.options {
+      li {
+        &.active {
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-align-content: stretch;
+          -ms-flex-line-pack: stretch;
+          align-content: stretch;
+          -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+          align-items: flex-start;
+
+          .option {
+            -webkit-order: 0;
+            -ms-flex-order: 0;
+            order: 0;
+            -webkit-flex: 0 1 auto;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            -webkit-align-self: center;
+            -ms-flex-item-align: center;
+            align-self: center;
+            text-align: center;
+          }
+        }
+
+        .option {
+          .can {
+            min-width: 150px;
+            min-height: 250px;
+            padding: 10px;
+            background-color: #eee;
+            margin: 30px;
+            text-align:center;
+            font-weight:900;
+            border-radius: 15px;
+          }
+
+          .landfill {
+            background-color: #222;
+            color: #fafafa;
+          }
+
+          .recycle {
+            background-color: #3255A4;
+            color:#fafafa;
+          }
+
+          .compost {
+            background-color: #4d7f17;
+            color:#fafafa;
+          }
+
+          span.select {
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+              $filteramt: 175%;
+              filter:brightness($filteramt);
+              -webkit-filter:brightness($filteramt);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &#trash-container {
+    position: absolute;
+    bottom: 0;
+    min-height:200px;
+    width: 100%;
+    text-align: center;
+    margin-top:30px;
+    background-color: #aaa;
+    padding: 20px;
+    font-size: 30pt;
+
+    &.correct {
+      background-color: #79c879;
+      color: #fff;
+    }
+  }
+
+  ul {
+    list-style-type:none;
+
+    li {
+      display:none;
+
+      &.active {
+        display:initial;
+      }
+    }
+  }
+}

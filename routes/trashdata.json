@@ -1,0 +1,84 @@
+{
+  "trashcans": [
+    {
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL"
+        },
+        {
+          "type": "recycling",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST"
+        }
+      ]
+    },
+    {
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 2",
+          "buttontext": "LANDFILL"
+        },
+        {
+          "type": "recycling",
+          "imgsrc": "",
+          "description": "Recycling Can 2",
+          "buttontext": "RECYCLING"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 2",
+            "buttontext": "COMPOST"
+        }
+      ]
+    },
+    {
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 3",
+          "buttontext": "LANDFILL"
+        },
+        {
+          "type": "recycling",
+          "imgsrc": "",
+          "description": "Recycling Can 3",
+          "buttontext": "RECYCLING"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 3",
+            "buttontext": "COMPOST"
+        }
+      ]
+    }
+  ],
+  "trashitems": [
+    {
+      "imgsrc": "",
+      "description": "Banana Peel"
+    },
+    {
+      "imgsrc": "",
+      "description": "Coffee Cup"
+    },
+    {
+      "imgsrc": "",
+      "description": "Food Container"
+    }
+  ]
+}
