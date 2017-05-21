@@ -33,6 +33,8 @@ if ('development' == app.get('env')) {
 
 // Home page
 app.get('/', index.view);
+app.get('/scores', index.scores);
+app.post('/scores', index.submit);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
