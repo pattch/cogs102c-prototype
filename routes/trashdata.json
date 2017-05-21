@@ -17,19 +17,22 @@
           "type": "landfill",
           "imgsrc": "",
           "description": "Landfill Trash Can 1",
-          "buttontext": "LANDFILL"
+          "buttontext": "LANDFILL",
+          "correct": "false"
         },
         {
           "type": "recycle",
           "imgsrc": "",
           "description": "Recycling Can 1",
-          "buttontext": "RECYCLING"
+          "buttontext": "RECYCLING",
+          "correct": "false"
         },
         {
             "type": "compost",
             "imgsrc": "",
             "description": "Compost Can 1",
-            "buttontext": "COMPOST"
+            "buttontext": "COMPOST",
+            "correct": "true"
         }
       ]
     },
@@ -39,19 +42,22 @@
           "type": "landfill",
           "imgsrc": "",
           "description": "Landfill Trash Can 2",
-          "buttontext": "LANDFILL"
+          "buttontext": "LANDFILL",
+          "correct": "false"
         },
         {
           "type": "recycle",
           "imgsrc": "",
           "description": "Recycling Can 2",
-          "buttontext": "RECYCLING"
+          "buttontext": "RECYCLING",
+          "correct": "true"
         },
         {
             "type": "compost",
             "imgsrc": "",
             "description": "Compost Can 2",
-            "buttontext": "COMPOST"
+            "buttontext": "COMPOST",
+            "correct": "false"
         }
       ]
     },
@@ -61,19 +67,22 @@
           "type": "landfill",
           "imgsrc": "",
           "description": "Landfill Trash Can 3",
-          "buttontext": "LANDFILL"
+          "buttontext": "LANDFILL",
+          "correct": "true"
         },
         {
           "type": "recycle",
           "imgsrc": "",
           "description": "Recycling Can 3",
-          "buttontext": "RECYCLING"
+          "buttontext": "RECYCLING",
+          "correct": "false"
         },
         {
             "type": "compost",
             "imgsrc": "",
             "description": "Compost Can 3",
-            "buttontext": "COMPOST"
+            "buttontext": "COMPOST",
+            "correct": "false"
         }
       ]
     }
@@ -97,7 +106,8 @@
       "message": "Thank you for participating, your score was:"
     },
     {
-      "message": "score"
+      "message": "score",
+      "class": "score"
     }
   ]
 }

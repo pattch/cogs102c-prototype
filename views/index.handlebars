@@ -11,6 +11,7 @@
 <body>
 	<div id="option-container">
   	<ul class="options">
+			<!-- Begin Intro Message -->
 			<li class="intro active">
 				<div class="option">
 					<div class="can">
@@ -23,6 +24,9 @@
 					</span>
 				</div>
 			</li>
+			<!-- End Finish Message -->
+
+			<!-- Begin Trash Cans -->
 			{{#each trashcans}}
 			<li>
 				{{#each options}}
@@ -32,18 +36,21 @@
 						{{else}}{{description}}
 						{{/if}}
 					</div>
-					<span class="select {{type}}">
+					<span class="select {{type}}" correct="{{correct}}" type="{{type}}">
 						{{buttontext}}
 					</span>
 				</div>
 				{{/each}}
 			</li>
 			{{/each}}
+			<!-- End Trash Cans -->
+
+			<!-- Begin Finish Message -->
 			<li class="finished">
 				<div class="option">
 					<div class="can">
 						{{#each finishmessages}}
-						<p>{{message}}</p>
+						<p{{#if class}} class="{{class}}"{{/if}}>{{message}}</p>
 						{{/each}}
 					</div>
 					<span class="select compost">
@@ -51,6 +58,7 @@
 					</span>
 				</div>
 			</li>
+			<!-- End Finish Message -->
 		</ul>
 	</div>
 
