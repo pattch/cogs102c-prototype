@@ -67,7 +67,7 @@ function updateScore(r) {
     var resp = response[i];
     var corr = resp.correct ? 'correct' : 'wrong';
     score_container.append("<br />Question " + (i + 1) + ": " + corr
-      + ", selected: " + resp.selected + ", correct: " + resp.correct
+      + ", selected: " + resp.selected + ", answer: " + resp.answer
       + ", response time: " + resp.time);
   }
 
