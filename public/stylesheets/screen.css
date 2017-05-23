@@ -18,33 +18,49 @@ div#option-container ul.options li.active {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
 }
 /* line 41, ../sass/screen.scss */
-div#option-container ul.options li.active .option {
+div#option-container ul.options li.active div {
+  text-align: center;
+  max-width: 100%;
+}
+/* line 45, ../sass/screen.scss */
+div#option-container ul.options li.active div.banner {
   -webkit-order: 0;
   -ms-flex-order: 0;
   order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  text-align: center;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
 }
-/* line 56, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
+div#option-container ul.options li.active div.option {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+/* line 72, ../sass/screen.scss */
 div#option-container ul.options li .option .can {
   min-width: 150px;
   min-height: 250px;
@@ -55,37 +71,37 @@ div#option-container ul.options li .option .can {
   font-weight: 900;
   border-radius: 15px;
 }
-/* line 67, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 div#option-container ul.options li .option .landfill {
   background-color: #222;
   color: #fafafa;
 }
-/* line 72, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 div#option-container ul.options li .option .recycle {
   background-color: #3255A4;
   color: #fafafa;
 }
-/* line 77, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 div#option-container ul.options li .option .compost {
   background-color: #4d7f17;
   color: #fafafa;
 }
-/* line 82, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 div#option-container ul.options li .option span.select {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
-/* line 87, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 div#option-container ul.options li .option span.select:hover {
   filter: brightness(175%);
   -webkit-filter: brightness(175%);
 }
-/* line 98, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 div#trash-container {
   position: absolute;
   bottom: 0;
-  min-height: 200px;
+  min-height: 300px;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -93,20 +109,25 @@ div#trash-container {
   padding: 20px;
   font-size: 30pt;
 }
-/* line 109, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 div#trash-container.correct {
   background-color: #79c879;
   color: #fff;
 }
-/* line 115, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
+div#trash-container .trash-img img {
+  max-width: 300px;
+  max-height: 300px;
+}
+/* line 138, ../sass/screen.scss */
 div ul {
   list-style-type: none;
 }
-/* line 118, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 div ul li {
   display: none;
 }
-/* line 121, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 div ul li.active {
   display: initial;
 }

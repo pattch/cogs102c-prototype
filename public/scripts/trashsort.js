@@ -62,7 +62,14 @@ function updateScore(r) {
   response.push(r);
   var score = (100.0 * num_correct / (num_correct + num_wrong)).toFixed(2);
   var score_container = $('#option-container p.score');
-  score_container.text(score);
+  score_container.text(score + '% Accurate');
+  for(var i = 0; i < response.length; i++) {
+    var resp = response[i];
+    var corr = resp.correct ? 'correct' : 'wrong';
+    score_container.append("<br />Question " + (i + 1) + ": " + corr
+      + ", selected: " + resp.selected + ", correct: " + resp.correct
+      + ", response time: " + resp.time);
+  }
 
   time_start = new Date();
 }

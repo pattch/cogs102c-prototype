@@ -1,0 +1,387 @@
+{
+  "intromessages": [
+    {
+      "message": "In this test, you will sort examples of trash on the bottom into what you feel is the appropriate container."
+    },
+    {
+      "message": "In order to sort each item, simply click the label of the trash can that will appear just below it."
+    },
+    {
+      "message": "It is important you try to sort the trash as quickly as possible, while being as accurate as you can be. After you've finished, we'll give you a score of how accurate you were so you can get a feel of how well you sort your trash on average."
+    }
+  ],
+  "trashcans": [
+    {
+      "label": "coffeefull",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "coffeefullstraw",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "coffeehalfstraw",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "coffeehalf",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "paper",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "reeses",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "true"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "false"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "santoriniclosed",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "false"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "true"
+        }
+      ]
+    },
+    {
+      "label": "santoriniopen",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "false"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "true"
+        }
+      ]
+    },
+    {
+      "label": "straw",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "tapexused",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "true"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "false"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "water",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+    {
+      "label": "waterfull",
+      "options": [
+        {
+          "type": "landfill",
+          "imgsrc": "",
+          "description": "Landfill Trash Can 1",
+          "buttontext": "LANDFILL",
+          "correct": "false"
+        },
+        {
+          "type": "recycle",
+          "imgsrc": "",
+          "description": "Recycling Can 1",
+          "buttontext": "RECYCLING",
+          "correct": "true"
+        },
+        {
+            "type": "compost",
+            "imgsrc": "",
+            "description": "Compost Can 1",
+            "buttontext": "COMPOST",
+            "correct": "false"
+        }
+      ]
+    },
+
+  ],
+  "trashitems": [
+    {
+      "imgsrc": "/images/coffeefull.jpg",
+      "description": "Cup of Iced Coffee"
+    },
+    {
+      "imgsrc": "/images/coffeefullstraw.jpg",
+      "description": "Cup of Iced Coffee"
+    },
+    {
+      "imgsrc": "/images/coffeehalfstraw.jpg",
+      "description": "Cup of Iced Coffee"
+    },
+    {
+      "imgsrc": "/images/coffeehalf.jpg",
+      "description": "Cup of Iced Coffee"
+    },
+    {
+      "imgsrc": "/images/paper.jpg",
+      "description": "Piece of Paper"
+    },
+    {
+      "imgsrc": "/images/reeses.jpg",
+      "description": "Candy Wrapper"
+    },
+    {
+      "imgsrc": "/images/santoriniclosed.jpg",
+      "description": "Soiled, Empty Food Container"
+    },
+    {
+      "imgsrc": "/images/santoriniopen.jpg",
+      "description": "Soiled, Empty Food Container"
+    },
+    {
+      "imgsrc": "/images/straw.jpg",
+      "description": "Plastic Drinking Straw"
+    },
+    {
+      "imgsrc": "/images/tapexused.jpg",
+      "description": "Plastic Milk Tea Drink Container with Film Lid and Straw"
+    },
+    {
+      "imgsrc": "/images/water.jpg",
+      "description": "Plastic Water Cup"
+    },
+    {
+      "imgsrc": "/images/water.jpg",
+      "description": "Plastic Water Cup"
+    }
+  ],
+  "finishmessages": [
+    {
+      "message": "Thank you for participating, your score was:"
+    },
+    {
+      "message": "score",
+      "class": "score"
+    }
+  ]
+}

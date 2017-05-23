@@ -13,5 +13,9 @@
     "testing"
   ],
   "author": "Samuel Sampson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.1"
+  }
 }

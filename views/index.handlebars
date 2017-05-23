@@ -29,6 +29,11 @@
 			<!-- Begin Trash Cans -->
 			{{#each trashcans}}
 			<li>
+				{{#if banner}}
+				<div class="banner">
+					<img src="{{banner}}" />
+				</div>
+				{{/if}}
 				{{#each options}}
 				<div class="option">
 					<div class="can {{type}}">
